@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock, Paper, Scissors Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/img/icons/icomoon/style.css">
+  </head>
+  
+  <body>
+
+    <h1>ROCK, PAPER & SCISSORS GAME</h1>
+
+    <P>Please, choose your play:</P>
+
+    <div class="icon-container">
+      <ul>
+        <li>
+          <span class="icon-rock-n-roll"></span>
+          <button id="rock">Rock</button>
+        </li>
+        <li>
+          <span class="icon-file-text2"></span>
+          <button id="paper">Paper</button>
+        </li>
+        <li>
+          <span class="icon-scissors"></span>
+          <button id="scissors">Scissors</button>
+        </li>    
+      </ul>
+      <p class="computer-guess"></p>
+    </div>
+
+    <div class="score">
+      <h3>SCORE</h3>
+      <p class="player-score">Player: 0</p>
+      <p class="computer-score">Computer: 0</p>
+    </div>
+
+    <div class="winner">
+      <h2>And the Winner is...</h2>
+      <p>(first to reach 5 points)</p>
+      <span id="userWinner" class="icon-user-tie"></span>
+      <span id="computerWinner" class="icon-display"></span>
+    </div>
+
+    <script type="text/javascript" src="./assets/rockpaper.js"></script>
+  </body>
+</html>
